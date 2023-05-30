@@ -1,0 +1,15 @@
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\bin\Debug\net7.0\OopsConcept.exe
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\bin\Debug\net7.0\OopsConcept.deps.json
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\bin\Debug\net7.0\OopsConcept.runtimeconfig.json
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\bin\Debug\net7.0\OopsConcept.dll
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\bin\Debug\net7.0\OopsConcept.pdb
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\obj\Debug\net7.0\OopsConcept.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\obj\Debug\net7.0\OopsConcept.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\obj\Debug\net7.0\OopsConcept.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\obj\Debug\net7.0\OopsConcept.AssemblyInfo.cs
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\obj\Debug\net7.0\OopsConcept.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\obj\Debug\net7.0\OopsConcept.dll
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\obj\Debug\net7.0\refint\OopsConcept.dll
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\obj\Debug\net7.0\OopsConcept.pdb
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\obj\Debug\net7.0\OopsConcept.genruntimeconfig.cache
+C:\Users\ADMIN\Downloads\DotNet Practice\OopsConcept\obj\Debug\net7.0\ref\OopsConcept.dll
