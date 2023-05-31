@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Display Input Content in TextArea</title>
+<script src="myFile.js">
+</script>
+</head>
+<body style="text-align:center">
+<div>
+<label for="txt1">Enter Text </label>
+<input type="text" id="txt1" />
+<input type="button" value="Show" />
+
+</div>
+
+
+
+
+</body>
+</html>

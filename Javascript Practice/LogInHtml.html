@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LogIn page in HTML</title>
+
+</head>
+<body style="text-align:center">
+<form >
+<h1 style="color:green">TECH MULANI PVT LTD</h1><br>
+<img style="padding-top:-30px" src="C:\Users\ADMIN\Downloads\login.png" height="150" width="150">
+<p>
+</p>
+<p>
+<label for="user1"> UserName </label>
+<input type="text" name="user" placeholder="Enter Username " id="user1" required/><br>
+</p>
+<p>
+<label for="pwd">Password</label>
+<input type="password" id="pwd" name="pass" placeholder="Enter Password" required/><br>
+</p>
+<button type="button" onclick="logIn()"><img src="C:\Users\ADMIN\Downloads\log.png" height="40" width="100" ></button><br>
+<p>
+<button  type="button" onClick="cancal()">Cancel</button>
+<span style="background-color:yellow;" class="sp">forgot <a href="#" >password?</a></span>
+</p>
+<p id="p1">aaaaa</p>
+<p id="p2">bbbbb</p>
+</form>
+
+<script language="javascript">
+
+const user11=document.getElementById("user1");
+const pass=document.getElementById("pwd");
+function logIn(){
+alert("logged In!!");
+	document.getElementById("p1").innerHTML="welcome "+user11.value; 
+	document.getElementById("p2").innerHTML="Your Password is " + pass.value;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Display Input Content in TextArea </title>
+
+
+</head>
+<h1 class="a" style="color:green">Display Input Data</h1>
+<body style="text-align:center">
+<div>
+<label for="txt1">Enter Text </label>
+<input type="text" id="txt1" />
+<input type="button" value="Show" onClick="show()"/>
+<p class="output" id="out" ></p>
+
+</div>
+
+<script>
+const text=document.getElementById("txt1");
+function show(){
+document.getElementById("out").innerHTML=text.value;
+}
+
+
+</script>
+
+
+</body>
+</html>

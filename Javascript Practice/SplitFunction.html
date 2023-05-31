@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>String Functions In Javascript</title>
+
+</head>
+<body >
+<p id="print"></p>
+<script>
+let s="";
+let str = "zero one two three four";
+var arr = str.split(" ");
+
+document.write(arr.length);
+
+for(var i = 0; i < arr.length; i++)
+{ s+=arr[i]+"<br>" }
+document.getElementById("print").innerHTML=s;
+</script>
+</body>
+</html>
