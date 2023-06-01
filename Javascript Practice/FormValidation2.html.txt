@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body style="text-align:center">
+<h1 style="color="green">Check Number</h1>
+<p>Enter digit between 1 and 10</p>
+<input type="text" id="num"/>
+<input type="button" value="check" onClick="checkNum()">
+
+</body>
+</html>

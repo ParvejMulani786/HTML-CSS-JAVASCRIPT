@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body style="text-align:center">
+<h1 style="color:green">Check Number</h1>
+<p>Enter digit between 1 and 10</p>
+<input type="text" id="num"/>
+<input type="button" value="check" onClick="checkNum()">
+<p id="output"></p>
+<script>
+function checkNum(){
+let x,text;
+x=document.getElementById("num").value;
+if(isNaN(x)|| x<1 || x>10){
+text="Invalid Number"
+}else{
+text="Valid Number!!";
+}
+document.getElementById("output").innerHTML=text;
+}
+</script>
+</body>
+</html>

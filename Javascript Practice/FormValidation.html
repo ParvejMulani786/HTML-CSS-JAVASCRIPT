@@ -13,20 +13,24 @@
 </form>
 <h2 id="demo"></h2>
 <script >
+let res;
 function validate(){
 let text=document.getElementById("fname").value;
+
+
 if(text==null || text=="")
 {
 alert("Name must be Filled Out!!");
-return false;
+res="Please ENter First Name";
 }else{
 //return document.write("hii");
 alert("Submitted Successfully!!");
-document.ElementById("demo").innerHTML=text.value;
+res="yes"
 }
-document.ElementById("demo").innerHTML=text.value;
+}
 
-}
+document.getElementById("demo").innerHTML=text.value;
+
 
 </script>
 </body>
