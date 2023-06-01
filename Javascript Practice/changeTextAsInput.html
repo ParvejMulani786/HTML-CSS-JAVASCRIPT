@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+</head>
+<body style="text-align:center">
+<form>
+<h1 style="color:green;">Welcome to JavaScript</h1>
+<h2 id="p1">Hii Everyone!!!</h2>
+<label for="input">Enter Text</label>
+<input type="text" id="input" name="abc"/>
+<button type="button" id="btn" onClick="change()">Click Me</button>
+
+</form>
+<script language="javascript">
+const text=document.getElementById("input");
+//document.write(text.value);
+function change(){
+alert("function called");
+
+document.getElementById("p1").innerHTML=text.value;
+//document.write(text);
+}
+</script>
+</body>
+</html>
