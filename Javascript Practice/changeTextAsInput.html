@@ -7,19 +7,25 @@
 <body style="text-align:center">
 <form>
 <h1 style="color:green;">Welcome to JavaScript</h1>
-<h2 id="p1">Hii Everyone!!!</h2>
+<h2 id="p1" name="demo" >Hii Everyone!!!</h2>
 <label for="input">Enter Text</label>
-<input type="text" id="input" name="abc"/>
-<button type="button" id="btn" onClick="change()">Click Me</button>
-
+<input name="abc" type="text" id="input" />
+<button type="button" id="btn" name="btn1" onClick="change()">Click Me</button>
+<p id="p2"></p>
 </form>
 <script language="javascript">
 const text=document.getElementById("input");
-//document.write(text.value);
+
 function change(){
 alert("function called");
 
 document.getElementById("p1").innerHTML=text.value;
+document.getElementById("p1").style.color="blue";
+document.getElementById("p1").style.fontFamily="Arial";
+document.getElementById("p1").style.fontSize="larger";
+
+
+
 //document.write(text);
 }
 </script>

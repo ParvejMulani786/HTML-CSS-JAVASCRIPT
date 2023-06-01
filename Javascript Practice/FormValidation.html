@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Validation</title>
+
+</head>
+<body style="text-align:center">
+<h1  style="color:green">Form Validation </h1>
+<form onsubmit="return validate()">
+<label for="fname">First Name</label>
+<input type="text" id="fname" />
+<input type="submit"  value="Validate" />
+</form>
+<h2 id="demo"></h2>
+<script >
+function validate(){
+let text=document.getElementById("fname").value;
+if(text==null || text=="")
+{
+alert("Name must be Filled Out!!");
+return false;
+}else{
+//return document.write("hii");
+alert("Submitted Successfully!!");
+document.ElementById("demo").innerHTML=text.value;
+}
+document.ElementById("demo").innerHTML=text.value;
+
+}
+
+</script>
+</body>
+</html>

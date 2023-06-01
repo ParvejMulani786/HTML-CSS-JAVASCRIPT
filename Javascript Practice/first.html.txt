@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Display Input Content in TextArea</title>
-<script src="myFile.js">
+<title>Form Validation</title>
+<script >
+function validate(){
+let text=document.getElementById("fname").value;
+if(text==null || text=="")
+{
+alert("Name must be Filled Out!!");
+}else{
+documnet.write("Your FIrst Name is: "+text.value);
+}
+
+}
+
 </script>
 </head>
 <body style="text-align:center">
-<div>
-<label for="txt1">Enter Text </label>
-<input type="text" id="txt1" />
-<input type="button" value="Show" />
-
-</div>
-
-
-
-
+<h1  style="color:green">Form Validation </h1>
+<form onsubmit="return validate()">
+<label for="">First Name</label>
+<input type="text" id="fname" />
+<input type="submit"  value="Validate" />
+</form>
 </body>
 </html>

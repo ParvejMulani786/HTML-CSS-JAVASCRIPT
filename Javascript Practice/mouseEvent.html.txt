@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<img src="emoji.gif" onmouseover="onMouse(this)" onmouseout="offMouse(this)" width="20" height="20" > 
+
+</body>
+</html>
