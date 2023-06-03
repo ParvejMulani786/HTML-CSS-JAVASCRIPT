@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head></head>
+<body>
+<marquee width="70%" direction="left" height="60px"><h2 style="color:black;">Second Page for Result</h2></marquee>
+<center>
+<h1 style="color:red">Display Result From Page1</h1>
+<hr>
+Welcome....<span id="data"></span>!!
+<script>
+document.getElementById("data").innerHTML=localStorage.getItem('textValue');
+</script>
+</center>
+</body>
+</html>

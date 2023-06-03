@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<script>
+
+
+function add(){
+alert("Registered Successfully!!");
+const fname1=document.getElementById("fname").value;
+const lname=document.getElementById("lname").value;
+const email=document.getElementById("email1").value;
+const phone=document.getElementById("phone").value;
+localStorage.setItem("fname",fname1);
+localStorage.setItem('lname',lname);
+localStorage.setItem('email',email);
+localStorage.setItem('phone',phone);
+}
+</script>
+</head>
+<body>
+<center>
+<h1 style="color:blue">User Registration Form</h1>
+<hr>
+<form action="HomePage.html">
+<p>
+<label for="fname">First Name</label>
+<input type="text" id="fname"  placeholder="First Name"/>
+
+</p>
+<p>
+<label for="lname">Last Name</label>
+<input type="text" id="lname" placeholder="Last Name"/>
+</p>
+<p>
+<label for="email1">Email Address</label>
+<input type="email" id="email1" placeholder="Email ID"/>
+</p>
+<p>
+<label for="phone">Phone</label>
+<input type="text" id="phone" placeholder="Phone Number"/>
+</p>
+<input type="button" id="btn" value="Submit" onClick="add()"/>
+<input type="submit" id="btn1" value="Home Page" />
+
+</form>
+</center>
+</body>
+</html>

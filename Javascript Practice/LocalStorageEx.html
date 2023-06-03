@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<title>Page 1</title>
+<script>
+function sendText(){
+const text=document.getElementById("inputText").value;
+localStorage.setItem("textValue",text);
+}
+</script>
+</head>
+<body>
+<center>
+<form action="localStoragePage2.html">
+<h1 style="color:green">Send Data betn webPages Using Local Storage</h1>
+<hr>
+<label for="inputText">Enter Text</label>
+<input type="text" id="inputText" />
+<input type="submit" id="btn" value="Send" onClick="sendText()"/>
+</form>
+</center>
+</body>
+</html>

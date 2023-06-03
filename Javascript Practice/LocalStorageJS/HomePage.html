@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<title>Home Page</title>
+<script>
+function data(){
+if(localStorage.getItem("fname")!=null){
+document.getElementById("fname1").innerHTML=localStorage.getItem("fname");
+document.getElementById("lname1").innerHTML=localStorage.getItem("lname");
+document.getElementById("email1").innerHTML=localStorage.getItem("email");
+document.getElementById("phone1").innerHTML=localStorage.getItem("phone");
+}else {
+alert("Empty List!!")
+}
+}
+</script>
+
+</head>
+<body>
+<center>
+<h1 style="color:green">User Registration</h1>
+<form action="SecondPage.html">
+<input type="submit" value="Add User"/>
+<p>
+<input type="button"  value="Show Registered Users" onClick="data()" />
+</p>
+</form>
+
+<div style="color:blue">
+<p id="fname1"></p>
+<p id="lname1"></p>
+<p id="email1"></p>
+<p id="phone1"></p>
+
+</div>
+
+</center>
+</body>
+</html>
